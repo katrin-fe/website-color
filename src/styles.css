@@ -1,0 +1,364 @@
+:root {
+  --primary-color: #4b01bd;
+  --secondary-color: #f08d73;
+  --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "Unica One", cursive;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 300;
+  display: block;
+  margin-right: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  color: white;
+}
+
+h1 {
+  font-family: var(--secondary-font);
+  text-align: right;
+  font-size: 70px;
+  margin-top: -300px;
+  margin-right: -20px;
+}
+
+h2 {
+  font-size: 21.5px;
+  text-align: right;
+  margin-right: -20px;
+  margin-top: -15px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  color: var(--primary-color);
+}
+
+footer {
+  margin-top: 120px;
+}
+
+img {
+  margin-top: -120px;
+  margin-left: 100px;
+  border-radius: 4px;
+}
+
+.hero {
+  max-width: 100%;
+  margin: 0px 100px 0px 70px;
+  transform: skewY(-15deg);
+  padding-right: 20px;
+}
+
+.section1 {
+  background: transparent;
+  background-image: url("/images/background.jpeg");
+  transform: skewY(15deg);
+  transform-origin: 100% -30%;
+  padding-top: 700px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+.section2 {
+  background: white;
+  transform: skewY(15deg);
+  transform-origin: 10% -30%;
+  padding-bottom: 40px;
+}
+
+.section3 {
+  background: var(--primary-color);
+  transform: skewY(15deg);
+  transform-origin: 10% -30%;
+  padding-bottom: 230px;
+  margin-top: -70px;
+}
+
+.section4 {
+  background: var(--primary-color);
+  transform: skewY(-15deg);
+  transform-origin: -30% 100%;
+  padding-bottom: 200px;
+  margin-top: 300px;
+}
+
+.heading {
+  font-size: 60px;
+  font-weight: 1000;
+  transform: skewY(-15deg);
+  color: white;
+  font-family: var(--secondary-font);
+}
+
+.orange-section {
+  margin-bottom: 350px;
+  margin-top: 180px;
+  background: var(--secondary-color);
+  background: linear-gradient(to right, #fc9633, var(--secondary-color));
+}
+
+.mail-me {
+  font-size: 35px;
+  font-weight: 1000;
+  transform: skewY(15deg);
+  color: white;
+  font-family: var(--secondary-font);
+  padding-left: 670px;
+  padding-top: 50px;
+}
+
+.mail-me a {
+  text-decoration: none;
+  color: white;
+}
+
+.mail-me a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.hello-portfolio {
+  font-size: 40px;
+  font-weight: 1000;
+  transform: skewY(-15deg);
+  color: white;
+  font-family: var(--secondary-font);
+  margin-top: -250px;
+}
+
+.introduction {
+  padding: 0px 20px 50px 0px;
+  min-width: 100%;
+  margin: 0 auto;
+  margin-top: -240px;
+  transform: skewY(-15deg);
+  text-align: justify;
+}
+
+.about-text {
+  padding: 0px 20px 50px 0;
+  min-width: 100%;
+  margin: 0 auto;
+  margin-top: -300px;
+  margin-bottom: 20px;
+  transform: skewY(-15deg);
+  text-align: justify;
+}
+
+.second-paragraph {
+  padding-top: 200px;
+}
+
+.first-arrow {
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.second-arrow {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.button:hover {
+  background: var(--primary-color);
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 550;
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+.link:hover {
+  font-weight: 550;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.card-body {
+  border: var(--primary-color);
+  border-radius: 3px;
+}
+
+.card-title {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.card-subtitle {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  opacity: 50%;
+  font-size: 18px;
+  font-weight: 1000;
+  margin-top: -13px;
+  padding-bottom: 30px;
+}
+
+.card-text {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.card-link {
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.card-link:hover {
+  color: var(--primary-color);
+  opacity: 70%;
+}
+
+.nav-color {
+  background: white;
+}
+
+.network {
+  color: white;
+  text-align: right;
+  margin-bottom: 30px;
+  margin-right: -8px;
+  font-size: 35px;
+  text-decoration: none;
+  transition: all 50ms ease-in-out;
+  padding-top: 20px;
+}
+
+.network:hover {
+  cursor: pointer;
+  color: white;
+  cursor: pointer;
+}
+
+.publication-list {
+  list-style: none;
+  text-align: left;
+}
+
+.publication-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.publication-list a:hover {
+  color: var(--secondary-color);
+}
+
+.opacity {
+  opacity: 50%;
+}
+
+.open-source {
+  color: black;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.open-source a {
+  text-decoration: none;
+  display: inline;
+  margin: 0 auto;
+  text-align: right;
+  color: var(--primary-color);
+}
+
+.writing {
+  margin-top: -384px;
+}
+
+.foto {
+  text-align: left;
+  margin-top: -20px;
+}
+
+.do-you-know {
+  font-family: var(--primary-font);
+  color: black;
+  font-size: 15px;
+  text-align: right;
+  margin-top: -320px;
+  padding-right: 80px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 18.5px;
+  }
+
+  .section1 {
+    padding-top: 570px;
+    background-size: contain;
+  }
+
+  .section3 {
+    margin-top: -330px;
+  }
+
+  .mail-me {
+    margin-top: 330px;
+    margin-bottom: -80px;
+    padding-top: -30px;
+  }
+
+  .mail-me .introduction {
+    font-size: 17px;
+  }
+
+  .second-paragraph {
+    margin-top: -140px;
+    margin-bottom: -26px;
+  }
+
+  .card {
+    margin-top: -80px;
+  }
+
+  .card-title {
+    font-size: 28px;
+  }
+
+  .card-subtitle {
+    font-size: 13px;
+    margin-top: 1px;
+    border-bottom: 1px solid var(--primary-color);
+  }
+
+  .card-text {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 1024x) {
+  .section1 {
+    padding-top: 500px;
+    background-size: contain;
+  }
+}
